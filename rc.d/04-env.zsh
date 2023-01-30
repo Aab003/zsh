@@ -14,6 +14,7 @@ export -UT INFOPATH infopath  # -T creates a "tied" pair; see below.
 # for $HOME in each $path entry.
 path=(
     /home/linuxbrew/.linuxbrew/bin(N)   # (N): null if file doesn't exist
+    /opt/homebrew/bin(N)
     $path
     ~/.local/bin
 )

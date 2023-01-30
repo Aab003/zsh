@@ -48,3 +48,8 @@ alias -s {log,out}='tail -F'
 
 # Use `< file` to quickly view the contents of any file.
 READNULLCMD=$PAGER  # Set the program to use for this.
+
+# Set regular aliases
+alias git='LANG=en_US.UTF-8 git'
+alias ll='ls -lhF'
+alias grep='grep --color=auto'
